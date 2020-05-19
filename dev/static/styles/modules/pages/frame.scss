@@ -1,0 +1,31 @@
+.section-frame__wrap {
+  background-image: url(../images/general/bg-frame.png);
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.section-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.section-frame__pattern {
+  width: 320px;
+  text-align: center;
+  &-top {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 59px;
+    color: #FFFFFF;
+  }
+  img {
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  &-bottom {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 145%;
+    color: #FFFFFF;
+  }
+}
