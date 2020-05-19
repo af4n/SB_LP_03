@@ -1,0 +1,41 @@
+.section-bonus__wrap {
+  background-image: url(../images/general/bg-activate.jpg);
+  padding-top: 41px;
+  padding-bottom: 56px;
+}
+
+.section-bonus__title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 84px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.section-bonus__heading h1 {
+  font-weight: 800;
+  font-size: 140px; 
+  line-height: 182px;
+  display: block;
+  text-align: center;
+  color: #3E93E8;
+  text-shadow: 0px 11.2px 14px rgba(0, 0, 0, 0.75);
+}
+
+.section-bonus__btn {
+  background: linear-gradient(89.2deg, #FFDC25 0.14%, rgba(255, 138, 0, 0.73) 99.29%), #FFD90F;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  border: none;
+  width: 400px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 36px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  letter-spacing: 1.35px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
