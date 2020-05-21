@@ -1,7 +1,8 @@
 .section-bonus__wrap {
   background-image: url(../images/general/bg-activate.jpg);
-  padding-top: 41px;
-  padding-bottom: 56px;
+  background-size: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .section-bonus__title {
@@ -10,16 +11,28 @@
   line-height: 84px;
   text-align: center;
   color: #FFFFFF;
+  &::after {
+    content: "";
+    background-image: url('../images/content/bot_arr 1.png');
+    width: 86px;
+    height: 48px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
-
-.section-bonus__heading h1 {
-  font-weight: 800;
-  font-size: 140px; 
-  line-height: 182px;
-  display: block;
-  text-align: center;
-  color: #3E93E8;
-  text-shadow: 0px 11.2px 14px rgba(0, 0, 0, 0.75);
+.section-bonus__heading {
+  margin-top: 80px;
+  h1 {
+    font-weight: 800;
+    font-size: 140px; 
+    line-height: 182px;
+    display: block;
+    text-align: center;
+    color: #3E93E8;
+    text-shadow: 0px 11.2px 14px rgba(0, 0, 0, 0.75);
+  }
 }
 
 .section-bonus__btn {
